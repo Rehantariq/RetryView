@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RetryView_Example' do
+  pod 'RetryView', :path => '../'
+
+  target 'RetryView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
