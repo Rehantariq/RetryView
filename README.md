@@ -1,3 +1,4 @@
+
 # RetryView
 
 [![CI Status](https://img.shields.io/travis/rehantariq/RetryView.svg?style=flat)](https://travis-ci.org/rehantariq/RetryView)
@@ -27,3 +28,4 @@ rehantariq, rehaan.tariq@gmail.com
 ## License
 
 RetryView is available under the MIT license. See the LICENSE file for more info.
+
