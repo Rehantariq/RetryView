@@ -1,0 +1,22 @@
+{
+  "name": "RetryView",
+  "version": "0.1.0",
+  "summary": "A short description of RetryView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rehantariq/RetryView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rehantariq": "rehaan.tariq@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rehantariq/RetryView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RetryView/Classes/**/*"
+}

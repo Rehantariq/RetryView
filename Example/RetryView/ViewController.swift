@@ -7,18 +7,36 @@
 //
 
 import UIKit
+import RetryView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
 
+    @IBOutlet weak var mainView : UIView!
+    
+    @IBAction func tapOnShowretryViewButton( sender: UIButton ){
+        
+        RetryView(parentView: mainView, message: "No internet connection", title: "Oops") {
+            print("yourApiCall()")
+               }.show()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+//  RetryView.setAppearance(appearance: RetryViewAppearance(backgroundColor: .darkGray, messageTextColor: .red, buttonBackgroundColor: .red, buttonTextColor: .white, isRoundedButton: false))
+        
     }
 
 }
+
+// For delegation
+//
+//extension ViewController: RetryViewDelegate{
+//    func onRetry() {
+//        print("yourApiCall()")
+//    }
+//
+//    func showRetryview(){
+//        RetryView(parentView: mainView, message: "No internet connection", delegate: self).show()
+//    }
+//}
 

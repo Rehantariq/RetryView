@@ -1,0 +1,16 @@
+PODS:
+  - RetryView (0.1.0)
+
+DEPENDENCIES:
+  - RetryView (from `../`)
+
+EXTERNAL SOURCES:
+  RetryView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RetryView: 6319067fd24af66d039753af65bd26147b2ed4f2
+
+PODFILE CHECKSUM: 7286593c7f230936f8fec68575582e1aa9ded7a4
+
+COCOAPODS: 1.7.2
