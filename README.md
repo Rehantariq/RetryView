@@ -11,16 +11,12 @@
 [![License](https://img.shields.io/cocoapods/l/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
 [![Platform](https://img.shields.io/cocoapods/p/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
 
-## Example
-
-
-## Requirements
 
 ## Installation
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-RetryView is available through [CocoaPods](https://cocoapods.org). To install
+RetryView is available through [CocoaPods](https://cocoapods.org/RetryView). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
