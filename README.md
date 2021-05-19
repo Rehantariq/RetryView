@@ -1,5 +1,10 @@
 
-# RetryView
+
+<p align="center">
+<img src='https://github.com/Rehantariq/RetryView/blob/master/Example/RetryView/Images.xcassets/retryview-1.imageset/retryview-1.jpg' width="300" />
+</p>
+
+# RetryView IOS
 
 [![CI Status](https://img.shields.io/travis/rehantariq/RetryView.svg?style=flat)](https://travis-ci.org/rehantariq/RetryView)
 [![Version](https://img.shields.io/cocoapods/v/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
