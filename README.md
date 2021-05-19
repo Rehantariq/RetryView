@@ -63,7 +63,7 @@ Or
 
   let appearance = RetryViewAppearance(backgroundColor: .darkGray, 
                                       messageTextColor: .red,
-                                  buttonBackgroundColor: .red,
+                                 buttonBackgroundColor: .red,
                                        buttonTextColor: .white, 
                                        isRoundedButton: false)
   RetryView.setAppearance(appearance:appearance)
