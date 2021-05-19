@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src='https://github.com/Rehantariq/RetryView/blob/master/Example/RetryView/Images.xcassets/retryview-1.imageset/retryview-1.jpg' width="300" />
+<img src='https://github.com/Rehantariq/RetryView/blob/master/Example/RetryView/Images.xcassets/retryview-1.imageset/retryview-1.jpg' />
 </p>
 
 # RetryView IOS
