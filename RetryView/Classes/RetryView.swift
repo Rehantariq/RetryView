@@ -21,11 +21,9 @@ public class RetryView: UIView {
    fileprivate var title: String!
    fileprivate var buttonTitle: String = "Retry"
    fileprivate var delegate: RetryViewDelegate!
-    
-   static var appearance: RetryViewAppearance = RetryViewAppearance()
+        static var appearance: RetryViewAppearance = RetryViewAppearance()
     
    override private init(frame: CGRect){
-        
         super.init(frame: frame)
         isUserInteractionEnabled = true
         layer.masksToBounds = true
@@ -56,15 +54,11 @@ public class RetryView: UIView {
         if buttonTitle != "" {
            self.buttonTitle = buttonTitle
         }
-
     }
-
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-
     
     public func show(){
          NotificationCenter.default.addObserver(self, selector: #selector(self.removeMe), name: NSNotification.Name(rawValue: RetryView.REMOVE_RETRY_VIEW_OBSERVER) , object: nil)
