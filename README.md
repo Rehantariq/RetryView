@@ -53,6 +53,7 @@ Or
   
 ```
 
+## Appearance
 
 ### RetryView Appearance ( Optional )
 
