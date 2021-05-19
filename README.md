@@ -4,7 +4,9 @@
 <img src='https://github.com/Rehantariq/RetryView/blob/master/Example/RetryView/Images.xcassets/retryview-1.imageset/retryview-1.jpg' />
 </p>
 
-# RetryView IOS
+# RetryView
+
+RetryView : Easy to use UI component, where you need to display retry option. You can display it on any UIView.
 
 
 [![Version](https://img.shields.io/cocoapods/v/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
