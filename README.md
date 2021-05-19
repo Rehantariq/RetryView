@@ -31,35 +31,42 @@ RetryView can be impelmented by two ways `Closure` or  `Delegate`
 
 ### By using Closure
 ```swift
+
 RetryView(parentView: canBeAnyView, message: "No internet connection") {
         print("yourApiCall()")
    }.show()
    //
    // parentView can be self.view , tableView, collectionView or any other UIView
    //
+   
 ```
 
 Or 
 
 ###  By using Delegate
 ```swift
+
   RetryView(parentView: mainView, message: "No internet connection", delegate: self).show()
   //
   // But don't forget to implement RetryViewDelegate
   //
+  
 ```
 
 
 ### RetryView Appearance ( Optional )
 
 ```swift
-  let appearance = RetryViewAppearance(backgroundColor: .darkGray, messageTextColor: .red, buttonBackgroundColor: .red, buttonTextColor: .white, isRoundedButton: false)
+
+  let appearance = RetryViewAppearance(backgroundColor: .darkGray, 
+                                      messageTextColor: .red,
+                                  buttonBackgroundColor: .red,
+                                       buttonTextColor: .white, 
+                                       isRoundedButton: false)
   RetryView.setAppearance(appearance:appearance)
-  
   //
   // you and set it in AppDelegate's didFinishLaunchingWithOptions method and can where you want
   //
-  
   
 ```
 
