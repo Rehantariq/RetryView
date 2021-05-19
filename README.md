@@ -1,18 +1,18 @@
 
 
-<p align="center">
-<img src='https://github.com/Rehantariq/RetryView/blob/master/Example/RetryView/Images.xcassets/retryview-1.imageset/retryview-1.jpg' />
-</p>
 
 # RetryView
 
-RetryView : Easy to use UI component, where you need to display retry option. You can display it on any UIView.
+RetryView : Easy to use UI component for IOS, where you need to display retry option. You can display it on any UIView.
 
 
 [![Version](https://img.shields.io/cocoapods/v/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
 [![License](https://img.shields.io/cocoapods/l/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
 [![Platform](https://img.shields.io/cocoapods/p/RetryView.svg?style=flat)](https://cocoapods.org/pods/RetryView)
 
+<p align="center">
+<img src='https://github.com/Rehantariq/RetryView/blob/master/Example/RetryView/Images.xcassets/retryview-1.imageset/retryview-1.jpg' />
+</p>
 
 ## Installation
 
